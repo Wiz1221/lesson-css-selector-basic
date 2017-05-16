@@ -4,6 +4,19 @@
   <title>Intro to CSS</title>
   <link rel="stylesheet" type="text/css" href="./style">
   <style>
+  	#central {
+  		background-color: brown;
+  		height: 70px;
+  		border: #ffd9b3 dashed 10px;
+
+  	}
+  	#photo{
+  		background-color: #0000e6;
+  		border: #ffad33 solid 3px;
+  	}
+  	h4 {
+  	
+  	}
   	#mouse {
   		color: gray;
   	}
@@ -47,15 +60,18 @@
   		text-decoration: underline;
   	}
   	ul {
-  		border: plum dotted 3px;
+  		border: plum solid 3px;
   		border-radius: 5px;
   	}
   	li {
-  		border-top: seagreen solid 3px;
+  		border-top: seagreen solid 6px;
   	}
   </style>
   </head>
 <body>
+	<div id="central">
+		<h4>Central Nervous System</h4>
+	</div>
 	<ul>
 		<li class="mammal" id="mouse">mouse</li>
 		<li class="bird" id="canary">canary</li>
@@ -68,6 +84,9 @@
 		<li class="bird" id="parakeet">parakeet</li>
 		<li class="fish" id="tuna">tuna</li>
 	</ul>
+	<div id="photo">
+		<h4>Photosynthesis</h4>
+	</div>
 	<ul>
 		<li>Dogwood Tree</li>
 		<li>Oak Tree</li>
